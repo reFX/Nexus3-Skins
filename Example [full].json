@@ -1,0 +1,547 @@
+//
+// Skin file for Example [full]
+// Copyright 2020 by reFX Audio Software Inc.
+//
+// Do NOT modify this file directly as every time you
+// open the reFX cloud-app, it will detect that is has been changed
+// and download it again, overwriting your changes.
+//
+// If you want to make a skin based on this one, copy it under a different
+// name and make changes to the copy.
+//
+// This is an example skin file. It is in the JSON format. For more information
+// on JSON see: https://en.wikipedia.org/wiki/JSON
+//
+// The recommended program to edit JSON is Visual Studio Code https://code.visualstudio.com/
+// It is available for free for Windows and macOS. After loading a JSON file, in
+// the bottom right were it says 'JSON', click and select 'JSON with Comments' instead.
+//
+// When editing a skin, everytime you save the skin json file, Nexus 3 will hot-reload the skin
+// immediatly and display the updated colors in the Nexus User Interface.
+//
+// A basic skin should be a single file, <skinname>.json that is located in the 
+// Skins folder in Nexus content folder. A more advanced skin, one that uses 
+// images and/or fonts should appear in a folder named <skinname> and should contain
+// the files "skin.json" and any required image and/or font files. Optionally, this folder
+// can be zipped to save disk space.
+//
+// If this skin uses a background image, it should be a 2752x2072 PNG named "background.png"
+// placed in the same folder as the skin json file or zipped together with the skin json.
+// Other image sizes will be stretched.
+//
+// An overlay image is also supported. It has the same requirements as the background, 
+// except must be named "overlay.png" and will be drawn overtop the Nexus user interface.
+//
+// If this skin uses a overlay image, it should be a 2752x2072 PNG. Other image sizes
+// will be stretched. 
+//
+// A custom true type font, if used, should also appear in the folder or zip file.
+// 
+// The skin file lets you specify the color of various elements in the Nexus User Interface.
+// There are 100s of colors which can be specified. However, it is not necessary to specify them 
+// all. This skin shows all colors and options specified for a skin. 
+//
+// This skin sets all colors to 'inherit' which means they use the default color.
+// Change any color you wish. It also sets all options to their default values.
+//
+// Colors can be specified with one of the following formats:
+//
+//	- #000					One hexidecimal digit each for red, blue and green
+//	- #0000					One hexidecimal digit each for red, blue, green and alpha 
+//	- #000000				Two hexidecimal digits each for red, blue and green
+//	- #00000000				Two hexidecimal digits each for red, blue, green and alpha
+//	- rgb(0, 0, 0)			Specify red, blue and green (0 - 255)
+//	- rgba(0, 0, 0, 0)		Specify red, blue, green (0 - 255) and alpha (0 - 1)
+//	- rgb(0%, 0%, 0%)		Specify red, blue and green as percentages (0 - 100)
+//	- rgba(0%, 0%, 0%, 0)	Specify red, blue and green as percentages (0 - 100) and alpha (0 - 1)
+//	- hsl(0, 0, 0)			Specify hue (0 - 360), saturation (0 - 100), lightness (0 - 100)
+//	- hsla(0, 0, 0, 0)		Specify hue (0 - 360), saturation (0 - 100), lightness (0 - 100), alpha (0 - 1)
+//	- black					CSS-name of the color (black, blue, cyan, red, green, etc)
+//							Full list of color names: https://developer.mozilla.org/en-US/docs/Web/CSS/color_value
+//
+// We've tried to follow the CSS-specs as closely as possible, so web-designers may recognize all the previos
+// color formats. In addition to the official CSS-specs, we also offer these two functions:
+//
+//	- hsb(0, 0, 0)			Specify hue (0 - 360), saturation (0 - 100), brightness (0 - 100)
+//	- hsba(0, 0, 0, 0)		Specify hue (0 - 360), saturation (0 - 100), brightness (0 - 100), alpha (0 - 1)
+//
+// We think they are easier to understand than HSL/HSLA.
+//
+{
+	"background-opacity": 1.0,	// Opacity of background image
+	"overlay-opacity": 1.0,		// Opacity of overlay image
+
+	// Header
+	"header": {
+
+		// Header colors
+		"colors": {
+
+			// General
+			"accent": "inherit",
+			"avatar-outline": "inherit",
+			"background": "inherit",
+			"divider": "inherit",
+			"label": "inherit",
+			"modulated": "inherit",
+			"noise": "inherit",
+			"progress-bar": "inherit",
+			"shadows": "inherit",
+			"noise": "inherit",
+
+			// Dials
+			"dials": {
+				"bottom": "inherit",
+				"line": "inherit",
+				"modulated": "inherit",
+				"outline": "inherit",
+				"ring": "inherit",
+				"top": "inherit",
+				"value": "inherit",
+
+				"bevel": {
+					"highlight": "inherit",
+					"middle": "inherit",
+					"shadow": "inherit"
+				}
+			},
+
+			// Group
+			"groups": {
+				"background": "inherit",
+				"label": "inherit",
+				"label-dark": "inherit",
+				"label-medium": "inherit"
+			},
+
+			// Meter
+			"meter": {
+				"background": "inherit",
+				"fill": "inherit"
+			},
+
+			// Scope
+			"scope": {
+				"background": "inherit",
+				"fill": "inherit",
+				"line": "inherit"
+			}
+
+		},
+
+		// Style of the dials in header. If not specified,
+		// panel dial style will be used
+		"dial-style": {
+			"ring-width": 4.5, 
+			"ring-space": 4.0,
+			"mod-ring-width": 4.5,
+			"mod-ring-space": 0.0,
+			"label-size": 16.5,
+			"label-offset-x": 0.0,
+			"label-offset-y": -2.0,
+			"shadow-size": 1.0,
+			"shadow-blur": 20.0,
+			"shadow-distance-x": 0.0,
+			"shadow-distance-y": 0.5,
+			"outline": 0.0,
+			"top-bevel": 1.5,
+			"pointer-width": 2.5,
+			"pointer-length": 0.75,
+			"pointer-space": 1.0,
+			"hover-brightness": 0.5,
+			"light-angle": 0.0,
+			"light-angle-min": 0.0,
+			"light-angle-max": 0.0
+		}
+	},
+
+	// Keyboard
+	"keyboard": {
+
+		// Keyboard colors
+		"colors" : {
+			"accent": "inherit",
+			"black-notes": "inherit",
+			"shadows": "inherit",
+			"wheels": "inherit",
+			"wheels-grooves": "inherit",
+			"white-notes": "inherit"
+		},
+
+		"realistic": false,		// true/false: flat or 3D drawing for the keyboard
+		"accent-width": 2.0,
+		"reflections": 0.5
+	},
+
+	// MIDI: Bottom section of screen with macro dials, mod wheel, pitch wheel and keyboard
+	"midi": {
+
+		// MIDI colors
+		"colors": {
+			"accent": "inherit",
+			"background": "inherit",
+			"divider": "inherit",
+			"label": "inherit",
+			"modulated": "inherit",
+			"noise": "inherit",
+			"shadows": "inherit",
+			"noise": "inherit",
+
+			// Dials
+			"dials": {
+				"bottom": "inherit",
+				"line": "inherit",
+				"modulated": "inherit",
+				"outline": "inherit",
+				"ring": "inherit",
+				"top": "inherit",
+				"value": "inherit",
+
+				"bevel": {
+					"highlight": "inherit",
+					"middle": "inherit",
+					"shadow": "inherit"
+				}
+			}
+		},
+
+		// Style of the dials in header. If not specified,
+		// panel dial style will be used
+		"dial-style": {
+			"ring-width": 4.5, 
+			"ring-space": 4.0,
+			"mod-ring-width": 4.5,
+			"mod-ring-space": 0.0,
+			"label-size": 16.5,
+			"label-offset-x": 0.0,
+			"label-offset-y": -2.0,
+			"shadow-size": 1.0,
+			"shadow-blur": 20.0,
+			"shadow-distance-x": 0.0,
+			"shadow-distance-y": 0.5,
+			"outline": 0.0,
+			"top-bevel": 1.5,
+			"pointer-width": 2.5,
+			"pointer-length": 0.75,
+			"pointer-space": 1.0,
+			"hover-brightness": 0.5,
+			"light-angle": 0.0,
+			"light-angle-min": 0.0,
+			"light-angle-max": 0.0
+		}
+	},
+	
+	// Front panel properties
+	"panel": {
+
+		// Here we define all colors for the panel
+		"colors": {
+
+			// General
+			"accent": "inherit",
+			"background": "inherit",
+			"divider": "inherit",
+			"focus-frame": "inherit",
+			"focus-inner": "inherit",
+			"label": "inherit",
+			"modulated": "inherit",
+			"noise": "inherit",
+			"shadows": "inherit",
+			"noise": "inherit",
+
+			"tag1": "inherit",
+			"tag2": "inherit",
+			"tag3": "inherit",
+			"tag4": "inherit",
+			"tag5": "inherit",
+			"tag6": "inherit",
+
+			// Dials
+			"dials": {
+				"bottom": "inherit",
+				"line": "inherit",
+				"modulated": "inherit",
+				"outline": "inherit",
+				"ring": "inherit",
+				"top": "inherit",
+				"value": "inherit",
+
+				"bevel": {
+					"highlight": "inherit",
+					"middle": "inherit",
+					"shadow": "inherit"
+				}
+			},
+
+			// Effects
+			"effects": {
+				"background": "inherit",
+				"dry": "inherit",
+				"fx1": "inherit",
+				"fx2": "inherit",
+				"fx3": "inherit",
+				"fx4": "inherit",
+				"fx5": "inherit",
+				"fx6": "inherit",
+				"label": "inherit",
+				"label-background": "inherit",
+				"modulated": "inherit"
+			},
+
+			// MIDI events in the Arp & Trancegate
+			"events":
+			{
+				"background": "inherit",
+				"black-lanes": "inherit",
+				"event": "inherit",
+				"grid-bars": "inherit",
+				"grid-beats": "inherit",
+				"marker-background": "inherit",
+				"marker-loop": "inherit",
+				"marker-text": "inherit",
+				"outline": "inherit",
+				"passive": "inherit",
+				"passive-selected": "inherit",
+				"playhead": "inherit",
+				"playing": "inherit",
+				"selected": "inherit",
+				"selected-playing": "inherit",
+				"text": "inherit",
+
+				// Scrollbars
+				"scrollbars": {
+					"background": "inherit",
+					"thumb": "inherit",
+					"thumb-hover": "inherit"
+				}
+			},
+
+			// Groups
+			"groups": 
+			{			
+				// General
+				"background": "inherit",
+				"label": "inherit",
+				"label-dark": "inherit",
+				"title": "inherit",
+				"title-background": "inherit",				
+
+				// Preset browser
+				"browser": {
+					"icon": "inherit",
+					"number": "inherit",
+
+					// Hover
+					"hover": {
+						"icon": "inherit",
+						"number": "inherit",
+						"text": "inherit"
+					},
+
+					// Selected
+					"selected": {
+						"background": "inherit",
+						"icon": "inherit",
+						"number": "inherit",
+						"text": "inherit"
+					}
+				},
+
+				// Scrollbars
+				"scrollbars": {
+					"background": "inherit",
+					"thumb": "inherit",
+					"thumb-hover": "inherit"
+				}
+				
+			},
+
+			// Layers
+			"layers": {
+				"background": "inherit",
+				"fx": "inherit",
+				"fx-inactive": "inherit",
+				"fx-text": "inherit",
+				"fx-text-inactive": "inherit",
+				"label": "inherit",
+				"label-background": "inherit",
+				"meta": "inherit",
+				"meta-inactive": "inherit",
+				"meta-text": "inherit",
+				"meta-text-inactive": "inherit",
+				"modulated": "inherit",
+				"osc": "inherit",
+				"osc-background": "inherit"			
+			},
+
+			// Like
+			"like": {
+				"empty": "inherit",
+				"empty-hovered": "inherit",
+				"filled": "inherit",
+				"filled-hovered": "inherit",
+				"negative-background": "inherit",
+				"negative-text": "inherit",
+				"off": "inherit",
+				"on": "inherit"
+			},
+
+			// Logos
+			"logos": {
+				"nexus": "inherit",
+				"nexus-accent": "inherit",
+				"refx": "inherit",
+				"vengeance": "inherit"
+			},
+
+			// Headers
+			"headers": {
+				"buttons": "inherit",
+				"label": "inherit"
+			},
+
+			// Menus
+			"menus": {
+				"background": "inherit",
+				"label": "inherit",
+				"outline": "inherit"
+			},
+
+			// Scrollbars
+			"scrollbars": {
+				"background": "inherit",
+				"thumb": "inherit",
+				"thumb-hover": "inherit"
+			},
+
+			// Tabs
+			"tabs": {
+				"accent": "inherit",
+				"background": "inherit",
+				"background-active": "inherit",
+				"background-hover": "inherit",
+				"label": "inherit",
+				"label-active": "inherit",
+				"label-hover": "inherit"
+			}			
+		},
+
+		// Main dial style, if not specified, defaults will be used
+		"dial-style": {
+			"ring-width": 4.5, 
+			"ring-space": 4.0,
+			"mod-ring-width": 4.5,
+			"mod-ring-space": 0.0,
+			"label-size": 16.5,
+			"label-offset-x": 0.0,
+			"label-offset-y": -2.0,
+			"shadow-size": 1.0,
+			"shadow-blur": 20.0,
+			"shadow-distance-x": 0.0,
+			"shadow-distance-y": 0.5,
+			"outline": 0.0,
+			"top-bevel": 1.5,
+			"pointer-width": 2.5,
+			"pointer-length": 0.75,
+			"pointer-space": 1.0,
+			"hover-brightness": 0.5,
+			"light-angle": 0.0,
+			"light-angle-min": 0.0,
+			"light-angle-max": 0.0
+		}
+	},
+
+	// Knob for the preview volume
+	"preview": {
+		"colors": {
+			"shadows": "inherit",
+
+			// Dials
+			"dials": {
+				"bottom": "inherit",
+				"line": "inherit",
+				"modulated": "inherit",
+				"outline": "inherit",
+				"ring": "inherit",
+				"top": "inherit",
+				"value": "inherit",
+
+				"bevel": {
+					"highlight": "inherit",
+					"middle": "inherit",
+					"shadow": "inherit"
+				}
+			}
+		},
+
+		// Dial style for preview, if not specified,
+		// default will be used
+		"dial-style": {
+			"ring-width": 4.5, 
+			"ring-space": 4.0,
+			"mod-ring-width": 4.5,
+			"mod-ring-space": 0.0,
+			"label-size": 16.5,
+			"label-offset-x": 0.0,
+			"label-offset-y": -2.0,
+			"shadow-size": 1.0,
+			"shadow-blur": 20.0,
+			"shadow-distance-x": 0.0,
+			"shadow-distance-y": 0.5,
+			"outline": 0.0,
+			"top-bevel": 1.5,
+			"pointer-width": 2.5,
+			"pointer-length": 0.75,
+			"pointer-space": 1.0,
+			"hover-brightness": 0.5,
+			"light-angle": 0.0,
+			"light-angle-min": 0.0,
+			"light-angle-max": 0.0
+		}
+	},
+
+	// Tag
+	"tag": {
+		"type1": "inherit",
+		"type2": "inherit",
+		"type3": "inherit",
+		"type4": "inherit",
+		"type5": "inherit",
+		"type6": "inherit"
+	},
+
+	// FX
+	"fx": {
+		"type1": "inherit",
+		"type2": "inherit",
+		"type3": "inherit",
+		"type4": "inherit",
+		"type5": "inherit",
+		"type6": "inherit"
+	},
+
+	// Fonts
+	"font": {
+		// Font used in the user interface
+		"regular": {
+			"file": "font.ttf",	// Name of the font file
+			"scale": 1.0,		// Scaling of the font
+			"squanch": 1.0,		// Horizontal scaling of the font
+			"spacing": 0.0		// Increase or decrease the space between characters (kerning)
+		},
+		// Bold font: Currently unused
+		"bold": {
+			"file": "font.ttf",
+			"scale": 1.0,
+			"squanch": 1.0,
+			"spacing": 0.0
+		},
+		// Light font: Currently unused
+		"light": {
+			"file": "font.ttf",
+			"scale": 1.0,
+			"squanch": 1.0,
+			"spacing": 0.0
+		}
+	}
+}

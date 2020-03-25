@@ -1,0 +1,196 @@
+{
+	"palette": {
+
+		"--blue": "#4344ec",
+		"--mediumblue": "#3131A7",
+		"--lightblue": "#adaefe"
+	},
+
+	// Front panel properties
+	"panel": {
+
+		// Here we define all colors for the panel
+		"colors": {
+
+			// General
+			"background": "#aaa58f",
+			"label": "#3b3c3e",
+			"accent": "deeppink",
+			"shadows": "#000",
+			"focus-frame": "#0000",
+			"focus-inner": "yellow",
+			"noise": "#0001",
+
+			"headers" : {
+
+				"buttons": "yellow",
+				"label": "white"
+
+			},
+
+			// Logos
+			"logos": {
+
+				"nexus": "#0000",
+				"nexus-accent": "#0000",
+
+				"refx": "#0000",
+				"vengeance": "#0000"
+			},
+
+			// Groups
+			"groups": {
+
+				"background": "--blue",
+				"label": "--lightblue",
+				"label-dark": "--mediumblue",
+	
+				// Browser
+				"browser": {
+
+					"selected": {
+
+						"background": "--lightblue",
+						"text": "--blue",
+						"icon": "--blue",
+						"number": "--blue"
+					}
+				}
+			},
+
+			// Events
+			"events": {
+
+				"background": "#6062DB",
+
+				"marker-loop": "#f0f8",
+				"marker-text": "white"
+			},
+
+			// FX
+			"effects": {
+
+				"fx1": "--lightblue",
+				"fx2": "--lightblue",
+				"fx3": "--lightblue",
+				"fx4": "--lightblue",
+				"fx5": "--lightblue",
+				"fx6": "--lightblue"
+			},
+
+			// Layers
+			"layers": {
+
+				"label-background": "--mediumblue",
+				"meta": "--lightblue",
+				"meta-text": "--blue",
+				"fx": "--lightblue",
+				"fx-text": "--blue",
+				"osc": "--lightblue",
+				"osc-background": "--mediumblue"
+			},
+
+			// Dials
+			"dials": {
+
+				"outline": "#000",
+				"ring": "#0004",
+				"top": "#652",
+				"bottom": "#541",
+				"highlight": "#975",
+				"shadow": "#321",
+				"line": "#eba"
+			}
+		},
+
+		// Here we define panel-dials properties
+		"dial-style": {
+
+			"outline": 1.5,
+			"top-bevel": 3,
+			"ring-width": 2,
+			"shadow-size": 0.5,
+			"shadow-blur": 20,
+			"shadow-distance-x": 0.07,
+			"shadow-distance-y": 0.25,
+			"pointer-space": 2,
+			"pointer-width": 2,
+			"light-angle-min": -45.0,
+			"light-angle-max": 0,
+			"hover-brightness": 0.3,
+
+			"label-size": 15,
+			"label-offset-y": 0
+		}
+	},
+
+	// Header properties
+	"header": {
+
+		// Here we define all colors for the header
+		"colors": {
+
+			// General
+			"background": "#C7C1A8",
+			"label": "#1B150F",
+			"shadows": "#0008",
+
+			"scope": {
+				"background": "--blue",
+				"line": "#DBDDFF",
+				"fill": "#858AEC"
+			},
+
+			"avatar-outline": "#444"
+		}
+	},
+
+	// Preview-dial
+	"preview": {
+
+		// Here we define preview-dial properties
+		"dial-style": {
+
+			"outline": 1,
+			"ring-space": 2,	// only for preview-dial: limited to 0-2
+			"ring-width": 0,	// only for preview-dial: limited to 0-2
+			"shadow-size": 0.33,
+			"shadow-distance-y": 0.3
+		}
+	},
+
+	// Header properties
+	"midi": {
+
+		// Here we define all colors for the header
+		"colors": {
+
+			// General
+			"background": "#8D8873"
+		}
+	},
+
+	// Here we define the virtual keyboard
+	"keyboard": {
+
+		"colors": {
+			"wheels": "#4a463d",
+			"black-notes": "#201E1A",
+			"white-notes": "#f8f8f4"
+		},
+
+		"realistic": true
+	},
+
+	// Fonts
+	"font": {
+
+		"regular": {
+
+			"file": "PetMe64.ttf",
+			"scale": 0.8,
+			"squanch": 0.7,
+			"spacing": -0.08
+		}
+	}
+}

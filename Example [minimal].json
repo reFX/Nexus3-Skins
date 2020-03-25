@@ -1,0 +1,80 @@
+//
+// Skin file for Example [minimal]
+// Copyright 2020 by reFX Audio Software Inc.
+//
+// Do NOT modify this file directly as every time you
+// open the reFX cloud-app, it will detect that is has been changed
+// and download it again, overwriting your changes.
+//
+// If you want to make a skin based on this one, copy it under a different
+// name and make changes to the copy.
+//
+// This is an example skin file. It is in the JSON format. For more information
+// on JSON see: https://en.wikipedia.org/wiki/JSON
+//
+// The recommended program to edit JSON is Visual Studio Code https://code.visualstudio.com/
+// It is available for free for Windows and macOS. After loading a JSON file, in
+// the bottom right were it says 'JSON', click and select 'JSON with Comments' instead.
+//
+// When editing a skin, everytime you save the skin json file, Nexus 3 will hot-reload the skin
+// immediatly and display the updated colors in the Nexus User Interface.
+//
+// A basic skin should be a single file, <skinname>.json that is located in the 
+// Skins folder in Nexus content folder. A more advanced skin, one that uses 
+// images and/or fonts should appear in a folder named <skinname> and should contain
+// the files "skin.json" and any required image and/or font files. Optionally, this folder
+// can be zipped to save disk space.
+//
+// The skin file lets you specify the color of various elements in the Nexus User Interface.
+// There are 100s of colors which can be specified. However, it is not necessary to specify them 
+// all. This skin file shows the minimum number of colors that you should specify for a skin. 
+// Additional colors are derived from the colors you specified or set from the default skin.
+// If you do not like the color that gets derived, then you can specifiy it manually. 
+//
+// See 'Example [full].json' for the full list of colors.
+// 
+// Colors can be specified with one of the following formats:
+//
+//	- #000					One hexidecimal digit each for red, blue and green
+//	- #0000					One hexidecimal digit each for red, blue, green and alpha 
+//	- #000000				Two hexidecimal digits each for red, blue and green
+//	- #00000000				Two hexidecimal digits each for red, blue, green and alpha
+//	- rgb(0, 0, 0)			Specify red, blue and green (0 - 255)
+//	- rgba(0, 0, 0, 0)		Specify red, blue, green (0 - 255) and alpha (0 - 1)
+//	- rgb(0%, 0%, 0%)		Specify red, blue and green as percentages (0 - 100)
+//	- rgba(0%, 0%, 0%, 0)	Specify red, blue and green as percentages (0 - 100) and alpha (0 - 1)
+//	- hsl(0, 0, 0)			Specify hue (0 - 360), saturation (0 - 100), lightness (0 - 100)
+//	- hsla(0, 0, 0, 0)		Specify hue (0 - 360), saturation (0 - 100), lightness (0 - 100), alpha (0 - 1)
+//	- black					CSS-name of the color (black, blue, cyan, red, green, etc)
+//							Full list of color names: https://developer.mozilla.org/en-US/docs/Web/CSS/color_value
+//
+// We've tried to follow the CSS-specs as closely as possible, so web-designers may recognize all the previos
+// color formats. In addition to the official CSS-specs, we also offer these two functions:
+//
+//	- hsb(0, 0, 0)			Specify hue (0 - 360), saturation (0 - 100), brightness (0 - 100)
+//	- hsba(0, 0, 0, 0)		Specify hue (0 - 360), saturation (0 - 100), brightness (0 - 100), alpha (0 - 1)
+//
+// We think they are easier to understand than HSL/HSLA.
+//
+{
+	// Front panel properties
+	"panel": {
+
+		// Here we define all colors for the panel
+		"colors": {
+
+			// General
+			"background": "#222",
+			"label": "white",
+			"accent": "red",
+			"modulated": "orange",
+
+			// Groups
+			"groups": 
+			{			
+				"background": "black",
+				"label": "lightgrey"
+			}
+		}
+	}
+}
