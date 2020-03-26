@@ -84,7 +84,6 @@
 			"divider": "inherit",
 			"label": "inherit",
 			"modulated": "inherit",
-			"noise": "inherit",
 			"progress-bar": "inherit",
 			"shadows": "inherit",
 			"noise": "inherit",
@@ -185,7 +184,6 @@
 			"modulated": "inherit",
 			"noise": "inherit",
 			"shadows": "inherit",
-			"noise": "inherit",
 
 			// Dials
 			"dials": {
@@ -245,7 +243,6 @@
 			"focus-inner": "inherit",
 			"label": "inherit",
 			"modulated": "inherit",
-			"noise": "inherit",
 			"shadows": "inherit",
 			"noise": "inherit",
 

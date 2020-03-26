@@ -21,6 +21,7 @@
 			"label": "hsb(210, 13, 100)",
 			"accent": "hsb(180, 100, 100)",
 			"shadows": "#000c",
+			"noise": "#00000008",
 
 			// Groups
 			"groups": {
@@ -84,6 +85,7 @@
 			// General
 			"background": "#222",
 			"shadows": "#0008",
+			"noise": "#0002",
 
 			"groups": {
 

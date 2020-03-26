@@ -22,6 +22,7 @@
 			"accent": "hsb(60, 100, 85)",
 			"shadows": "#000c",
 			"modulated": "hsb(120, 100, 85)",
+			"noise": "#00000008",
 
 			// Groups
 			"groups": {
@@ -81,6 +82,7 @@
 			"background": "#222",
 			"label": "#eee",
 			"shadows": "#0008",
+			"noise": "#0002",
 
 			"groups": {
 

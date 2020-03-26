@@ -83,6 +83,7 @@
 			"label": "#aaa",
 			"group": "#11110f",
 			"shadows": "#0008",
+			"noise": "#0002",
 
 			// Dials
 			"dials": {

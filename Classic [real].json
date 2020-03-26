@@ -10,6 +10,7 @@
 			"label": "#4b4c4e",
 			"accent": "#0af",
 			"shadows": "#000c",
+			"noise": "#00000008",
 
 			// Groups
 			"groups": {
@@ -70,6 +71,7 @@
 			"background": "#333",
 			"label": "#bbb",
 			"shadows": "#0008",
+			"noise": "#0002",
 
 			// Dials
 			"dials": {
