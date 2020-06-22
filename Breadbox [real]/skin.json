@@ -121,6 +121,12 @@
 
 			"label-size": 15,
 			"label-offset-y": 0
+		},
+
+		// Here we define note-event properties
+		"events": {
+			"note-radius": 0,
+			"note-outline": 0.5
 		}
 	},
 

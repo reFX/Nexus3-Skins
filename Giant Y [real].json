@@ -69,6 +69,13 @@
 			"pointer-width": 2.5,
 			"light-angle-min": -5,
 			"light-angle-max": 5
+		},
+
+		// Here we define note-event properties
+		"events": {
+			"note-depth": 0.2,
+			"note-radius": 2,
+			"note-outline": 0.5
 		}
 	},
 

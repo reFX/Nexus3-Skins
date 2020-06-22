@@ -70,6 +70,14 @@
 			"shadow-distance-y": 0.3,
 			"pointer-space": 3,
 			"pointer-width": 2.5
+		},
+
+		// Here we define note-event properties
+		"events": {
+
+			"note-depth": 0.2,
+			"note-radius": 2,
+			"note-outline": 0.5
 		}
 	},
 

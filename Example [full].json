@@ -445,6 +445,15 @@
 			"light-angle": 0.0,
 			"light-angle-min": 0.0,
 			"light-angle-max": 0.0
+		},
+
+		// Note-event style, if not specified, defaults will be used
+		"events": {
+			"velocity-scale": 0.33,
+			"note-hue-shift": 1,
+			"note-depth": 0,
+			"note-radius": 1,
+			"note-outline": 0.25
 		}
 	},
 

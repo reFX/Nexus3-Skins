@@ -113,6 +113,13 @@
 		"dial-style": {
 
 			"outline": 1.5
+		},
+
+		// Here we define note-event properties
+		"events": {
+			"note-depth": 0.2,
+			"note-radius": 2,
+			"note-outline": 0.5
 		}
 	},
 
