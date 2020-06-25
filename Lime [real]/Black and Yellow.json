@@ -1,0 +1,442 @@
+{
+  // Palette of your own colors that can then be used for the skin
+  "palette": {
+    "--main": "#010101",
+    "--textLight": "#fafafa",
+    "--accent": "#F3F315",
+    "--dark": "#191919",
+    "--wheels": "#333",
+    "--grooves": "#444"
+  },
+  "background-opacity": 1.0, // Opacity of background image
+  "overlay-opacity": 1.0, // Opacity of overlay image
+  // Header
+  "header": {
+    // Header colors
+    "colors": {
+      // General
+      "accent": "--accent",
+      "avatar-outline": "inherit",
+      "background": "--main",
+      "divider": "--dark",
+      "label": "--textLight",
+      "modulated": "inherit",
+      "progress-bar": "inherit",
+      "shadows": "inherit",
+      "noise": "inherit",
+      // Dials
+      "dials": {
+        "bottom": "inherit",
+        "line": "inherit",
+        "modulated": "inherit",
+        "outline": "inherit",
+        "ring": "inherit",
+        "top": "inherit",
+        "value": "inherit",
+        "bevel": {
+          "highlight": "inherit",
+          "middle": "inherit",
+          "shadow": "inherit"
+        }
+      },
+      // Group
+      "groups": {
+        "background": "--dark",
+        "label": "inherit",
+        "label-dark": "inherit",
+        "label-medium": "inherit"
+      },
+      // Meter
+      "meter": {
+        "background": "inherit",
+        "fill": "inherit"
+      },
+      // Scope
+      "scope": {
+        "background": "inherit",
+        "fill": "inherit",
+        "line": "inherit"
+      }
+    },
+    // Style of the dials in header. If not specified,
+    // panel dial style will be used
+    "dial-style": {
+      "ring-width": 4.5,
+      "ring-space": 4.0,
+      "mod-ring-width": 4.5,
+      "mod-ring-space": 0.0,
+      "label-size": 16.5,
+      "label-offset-x": 0.0,
+      "label-offset-y": -2.0,
+      "shadow-size": 1.0,
+      "shadow-blur": 20.0,
+      "shadow-distance-x": 0.0,
+      "shadow-distance-y": 0.5,
+      "outline": 0.0,
+      "top-bevel": 1.5,
+      "pointer-width": 2.5,
+      "pointer-length": 0.75,
+      "pointer-space": 1.0,
+      "hover-brightness": 0.5,
+      "light-angle": 0.0,
+      "light-angle-min": 0.0,
+      "light-angle-max": 0.0
+    }
+  },
+  // Keyboard
+  "keyboard": {
+    // Keyboard colors
+    "colors": {
+      "accent": "--accent",
+      "black-notes": "--main",
+      "shadows": "inherit",
+      "wheels": "--wheels",
+      "wheels-grooves": "--grooves",
+      "white-notes": "#fafafa"
+    },
+    "realistic": true, // true/false: flat or 3D drawing for the keyboard
+    "accent-width": 2.0,
+    "reflections": 0.2
+  },
+  // MIDI: Bottom section of screen with macro dials, mod wheel, pitch wheel and keyboard
+  "midi": {
+    // MIDI colors
+    "colors": {
+      "accent": "inherit",
+      "background": "inherit",
+      "divider": "inherit",
+      "label": "inherit",
+      "modulated": "inherit",
+      "noise": "inherit",
+      "shadows": "inherit",
+      // Dials
+      "dials": {
+        "bottom": "inherit",
+        "line": "inherit",
+        "modulated": "inherit",
+        "outline": "inherit",
+        "ring": "inherit",
+        "top": "inherit",
+        "value": "inherit",
+        "bevel": {
+          "highlight": "inherit",
+          "middle": "inherit",
+          "shadow": "inherit"
+        }
+      }
+    },
+    // Style of the dials in header. If not specified,
+    // panel dial style will be used
+    "dial-style": {
+      "ring-width": 4.5,
+      "ring-space": 4.0,
+      "mod-ring-width": 4.5,
+      "mod-ring-space": 0.0,
+      "label-size": 16.5,
+      "label-offset-x": 0.0,
+      "label-offset-y": -2.0,
+      "shadow-size": 1.0,
+      "shadow-blur": 10.0,
+      "shadow-distance-x": 0.0,
+      "shadow-distance-y": 0.1,
+      "outline": 0.0,
+      "top-bevel": 1.5,
+      "pointer-width": 2.5,
+      "pointer-length": 0.75,
+      "pointer-space": 1.0,
+      "hover-brightness": 0.5,
+      "light-angle": 0.0,
+      "light-angle-min": 0.0,
+      "light-angle-max": 0.0
+    }
+  },
+  // Front panel properties
+  "panel": {
+    // Here we define all colors for the panel
+    "colors": {
+      // General
+      "accent": "--accent",
+      "background": "--main",
+      "divider": "--dark",
+      "focus-frame": "inherit",
+      "focus-inner": "inherit",
+      "label": "#fafafa",
+      "modulated": "#FF5E19",
+      "shadows": "inherit",
+      "noise": "inherit",
+      "tag1": "inherit",
+      "tag2": "inherit",
+      "tag3": "inherit",
+      "tag4": "inherit",
+      "tag5": "inherit",
+      "tag6": "inherit",
+      // Dials
+      "dials": {
+        "bottom": "inherit",
+        "line": "inherit",
+        "modulated": "inherit",
+        "outline": "inherit",
+        "ring": "inherit",
+        "top": "inherit",
+        "value": "inherit",
+        "bevel": {
+          "highlight": "inherit",
+          "middle": "inherit",
+          "shadow": "inherit"
+        }
+      },
+      // Effects
+      "effects": {
+        "background": "--dark",
+        "dry": "inherit",
+        "fx1": "inherit",
+        "fx2": "inherit",
+        "fx3": "inherit",
+        "fx4": "inherit",
+        "fx5": "inherit",
+        "fx6": "inherit",
+        "label": "inherit",
+        "label-background": "inherit",
+        "modulated": "--accent"
+      },
+      // MIDI events in the Arp & Trancegate
+      "events": {
+        "background": "--dark",
+        "black-lanes": "inherit",
+        "event": "inherit",
+        "grid-bars": "inherit",
+        "grid-beats": "inherit",
+        "marker-background": "inherit",
+        "marker-loop": "inherit",
+        "marker-text": "inherit",
+        "outline": "inherit",
+        "passive": "inherit",
+        "passive-selected": "inherit",
+        "playhead": "inherit",
+        "playing": "inherit",
+        "selected": "inherit",
+        "selected-playing": "inherit",
+        "text": "inherit",
+        // Scrollbars
+        "scrollbars": {
+          "background": "inherit",
+          "thumb": "inherit",
+          "thumb-hover": "inherit"
+        }
+      },
+      // Groups
+      "groups": {
+        // General
+        "background": "--dark",
+        "label": "inherit",
+        "label-dark": "inherit",
+        "title": "inherit",
+        "title-background": "inherit",
+        // Preset browser
+        "browser": {
+          "icon": "inherit",
+          "number": "inherit",
+          // Hover
+          "hover": {
+            "icon": "inherit",
+            "number": "inherit",
+            "text": "inherit"
+          },
+          // Selected
+          "selected": {
+            "background": "inherit",
+            "icon": "#1f1f1f",
+            "number": "#1f1f1f",
+            "text": "#1f1f1f"
+          }
+        },
+        // Scrollbars
+        "scrollbars": {
+          "background": "inherit",
+          "thumb": "inherit",
+          "thumb-hover": "inherit"
+        }
+      },
+      // Layers
+      "layers": {
+        "background": "--dark",
+        "fx": "inherit",
+        "fx-inactive": "inherit",
+        "fx-text": "--textLight",
+        "fx-text-inactive": "inherit",
+        "label": "--textLight",
+        "label-background": "--main",
+        "meta": "inherit",
+        "meta-inactive": "inherit",
+        "meta-text": "inherit",
+        "meta-text-inactive": "inherit",
+        "modulated": "inherit",
+        "osc": "inherit",
+        "osc-background": "inherit"
+      },
+      // Like
+      "like": {
+        "empty": "inherit",
+        "empty-hovered": "inherit",
+        "filled": "inherit",
+        "filled-hovered": "inherit",
+        "negative-background": "inherit",
+        "negative-text": "inherit",
+        "off": "inherit",
+        "on": "inherit"
+      },
+      // Logos
+      "logos": {
+        "nexus": "--textLight",
+        "nexus-accent": "inherit",
+        "refx": "#222",
+        "vengeance": "#222"
+      },
+      // Headers
+      "headers": {
+        "buttons": "inherit",
+        "label": "--textLight"
+      },
+      // Menus
+      "menus": {
+        "background": "inherit",
+        "label": "--textLight",
+        "outline": "--dark"
+      },
+      // Scrollbars
+      "scrollbars": {
+        "background": "inherit",
+        "thumb": "inherit",
+        "thumb-hover": "inherit"
+      },
+      // Tabs
+      "tabs": {
+        "accent": "inherit",
+        "background": "inherit",
+        "background-active": "inherit",
+        "background-hover": "inherit",
+        "label": "inherit",
+        "label-active": "inherit",
+        "label-hover": "inherit"
+      }
+    },
+    // Main dial style, if not specified, defaults will be used
+    "dial-style": {
+      "ring-width": 4.5,
+      "ring-space": 4.0,
+      "mod-ring-width": 4.5,
+      "mod-ring-space": 0.0,
+      "label-size": 16.5,
+      "label-offset-x": 0.0,
+      "label-offset-y": -2.0,
+      "shadow-size": 1.0,
+      "shadow-blur": 20.0,
+      "shadow-distance-x": 0.0,
+      "shadow-distance-y": 0.5,
+      "outline": 0.0,
+      "top-bevel": 1.5,
+      "pointer-width": 2.5,
+      "pointer-length": 0.75,
+      "pointer-space": 1.0,
+      "hover-brightness": 0.5,
+      "light-angle": 0.0,
+      "light-angle-min": 0.0,
+      "light-angle-max": 0.0
+    },
+    // Note-event style, if not specified, defaults will be used
+    "events": {
+      "velocity-scale": 0.33,
+      "note-hue-shift": 1,
+      "note-depth": 0,
+      "note-radius": 1,
+      "note-outline": 0.25
+    }
+  },
+  // Knob for the preview volume
+  "preview": {
+    "colors": {
+      "shadows": "inherit",
+      // Dials
+      "dials": {
+        "bottom": "inherit",
+        "line": "inherit",
+        "modulated": "inherit",
+        "outline": "inherit",
+        "ring": "inherit",
+        "top": "inherit",
+        "value": "inherit",
+        "bevel": {
+          "highlight": "inherit",
+          "middle": "inherit",
+          "shadow": "inherit"
+        }
+      }
+    },
+    // Dial style for preview, if not specified,
+    // default will be used
+    "dial-style": {
+      "ring-width": 4.5,
+      "ring-space": 4.0,
+      "mod-ring-width": 4.5,
+      "mod-ring-space": 0.0,
+      "label-size": 16.5,
+      "label-offset-x": 0.0,
+      "label-offset-y": -2.0,
+      "shadow-size": 1.0,
+      "shadow-blur": 20.0,
+      "shadow-distance-x": 0.0,
+      "shadow-distance-y": 0.5,
+      "outline": 0.0,
+      "top-bevel": 1.5,
+      "pointer-width": 2.5,
+      "pointer-length": 0.75,
+      "pointer-space": 1.0,
+      "hover-brightness": 0.5,
+      "light-angle": 0.0,
+      "light-angle-min": 0.0,
+      "light-angle-max": 0.0
+    }
+  },
+  // Tag
+  "tag": {
+    "type1": "inherit",
+    "type2": "inherit",
+    "type3": "inherit",
+    "type4": "inherit",
+    "type5": "inherit",
+    "type6": "inherit"
+  },
+  // FX
+  "fx": {
+    "type1": "inherit",
+    "type2": "inherit",
+    "type3": "inherit",
+    "type4": "inherit",
+    "type5": "inherit",
+    "type6": "inherit"
+  },
+  // Fonts
+  "font": {
+    // Font used in the user interface
+    "regular": {
+      "file": "font.ttf", // Name of the font file
+      "scale": 1.0, // Scaling of the font
+      "squanch": 1.0, // Horizontal scaling of the font
+      "spacing": 0.0 // Increase or decrease the space between characters (kerning)
+    },
+    // Bold font: Currently unused
+    "bold": {
+      "file": "font.ttf",
+      "scale": 1.0,
+      "squanch": 1.0,
+      "spacing": 0.0
+    },
+    // Light font: Currently unused
+    "light": {
+      "file": "font.ttf",
+      "scale": 1.0,
+      "squanch": 1.0,
+      "spacing": 0.0
+    }
+  }
+}
