@@ -1,0 +1,170 @@
+//
+// Skin file for Passion Fruit [real]
+// Copyright 2020 by reFX Audio Software Inc.
+//
+// Do NOT modify this file directly as every time you
+// open the reFX cloud-app, it will detect that is has been changed
+// and download it again, overwriting your changes.
+//
+// If you want to make a skin based on this one, copy it under a different
+// name and make changes to the copy.
+//
+{
+	// Palette of your own colors that can then be used for the skin
+	"palette": {
+
+		"--main": "hsb(270, 100, 100)",
+		"--medium": "hsb(270, 0, 90)",
+		"--dark": "hsb(270, 35, 100)"
+	},
+
+	// Front panel properties
+	"panel": {
+
+		// Here we define all colors for the panel
+		"colors": {
+
+			// General
+			"background": "--main",
+			"label": "--medium",
+			"accent": "--dark",
+			"shadows": "#000c",
+			"modulated": "hsb(60, 100, 100)",
+			"noise": "#0001",
+
+			// Groups
+			"groups": {
+
+				"background": "hsb(270, 88, 22)",
+				"label": "--medium"
+			},
+
+			// Dials
+			"dials": {
+
+				"ring": "#fff3",
+
+				"outline": "#0008",
+				"top": "#6f6f77",
+				"bottom": "#4f4f55",
+
+				"bevel": {
+
+					"highlight": "#fff4",
+					"shadow": "#0004"
+				},
+
+				"line": "#fffa"
+			}
+		},
+
+		// Here we define panel-dials properties
+		"dial-style": {
+
+			"outline": 1.5,
+			"top-bevel": 1.5,
+			"ring-width": 3,
+			"ring-space": 4,
+			"shadow-size": 0.6,
+			"shadow-distance-y": 0.3,
+			"pointer-space": 3,
+			"pointer-width": 2.5
+		}
+	},
+
+	// Header properties
+	"header": {
+
+		// Here we define all colors for the header
+		"colors": {
+
+			// General
+			"background": "#222",
+			"label": "#eee",
+			"accent": "hsb(270, 60, 100)",
+			"shadows": "#0008",
+			"noise": "#0002",
+
+			"groups": {
+
+				"background": "#11110f",
+				"label": "#eee",
+				"label-medium": "#888",
+				"label-dark": "#333"
+			},
+
+			// Dials
+			"dials": {
+
+				"outline": "#0004",
+				"top": "#5d5d5d",
+				"bottom": "#3e3e3e",
+
+				"bevel": {
+
+					"highlight": "#0004",
+					"shadow": "#0004"
+				},
+
+				"line": "#969799"
+			}
+		},
+
+		// Here we define header-dials properties
+		"dial-style": {
+
+			"outline": 1.5
+		},
+
+		// Here we define note-event properties
+		"events": {
+			"note-depth": 0.2,
+			"note-radius": 2,
+			"note-outline": 0.5
+		}
+	},
+
+	// Preview-dial
+	"preview": {
+
+		"colors": {
+
+			"dials": {
+
+				"outline": "#0004",
+				"top": "#5d5d5d",
+				"bottom": "#3e3e3e",
+
+				"bevel": {
+
+					"highlight": "#0004",
+					"shadow": "#0004"
+				},
+
+				"line": "#969799"
+			}
+		},
+
+		// Here we define preview-dial properties
+		"dial-style": {
+
+			"outline": 1,
+			"ring-space": 2,	// only for preview-dial: limited to 0-2
+			"ring-width": 0,	// only for preview-dial: limited to 0-2
+			"shadow-size": 0.33,
+			"shadow-distance-y": 0.3
+		}
+	},
+
+	// Here we define the virtual keyboard
+	"keyboard": {
+
+		"colors": {
+			"wheels": "#555551",
+			"black-notes": "#181814",
+			"white-notes": "#f8f8f4"
+		},
+
+		"realistic": true
+	}
+}
