@@ -1,5 +1,6 @@
 //
 // Skin file for Dark Plum [real]
+// Made by Zroxos
 // Copyright 2020 by reFX Audio Software Inc.
 //
 // Do NOT modify this file directly as every time you
@@ -13,10 +14,10 @@
 	// Palette of your own colors that can then be used for the skin
 	"palette": {
 
-		"--primary": "#A51FFF",
+		"--primary": "#BA54FF",
 		"--secondary": "#70f",
 		"--group": "#160024",
-		"--dark": "#11001F"
+		"--dark": "#250047"
 	},
 
 	// Front panel properties
@@ -53,11 +54,11 @@
 			// Dials
 			"dials": {
 
-				"ring": "#370066",
+				"ring": "#4A0083",
 
 				"outline": "#1F0033",
 				"top": "#8800FF",
-				"bottom": "#15006B",
+				"bottom": "#440080",
 
 				"bevel": {
 
@@ -105,11 +106,6 @@
 
 			// Dials
 			"dials": {
-
-				"outline": "#1F0033",
-				"top": "#8800FF",
-				"bottom": "#15006B",
-
 				"bevel": {
 
 					"highlight": "#fff2",
