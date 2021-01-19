@@ -1,0 +1,156 @@
+//
+// Skin file for Deep Forest [real]
+// Skin made by Zroxos
+// Copyright 2020 by reFX Audio Software Inc.
+//
+// Do NOT modify this file directly as every time you
+// open the reFX cloud-app, it will detect that is has been changed
+// and download it again, overwriting your changes.
+//
+// If you want to make a skin based on this one, copy it under a different
+// name and make changes to the copy.
+//
+{
+	// Palette of your own colors that can then be used for the skin
+	"palette": {
+		"--highlight": "#9CFFF0",
+		"--primary": "#00FAD8",
+		"--primary-medium": "#066E67",
+		"--accent": "#4DFFD6",
+		"--accent-dark": "#32D4B1",
+		"--group": "#002829",
+		"--dark": "#236666",
+		"--darker": "#002024"
+	},
+
+	// Front panel properties
+	"panel": {
+
+		// Here we define all colors for the panel
+		"colors": {
+
+			// General
+			"background": "--dark",
+			"label": "--accent",
+			"accent": "--accent",
+			"shadows": "#000a",
+			"modulated": "--highlight",
+			"noise": "#fff0",
+
+			// Groups
+			"groups": {
+
+				"background": "--group",
+				"label": "--primary",
+
+				"browser": {
+
+					"selected": {
+
+						"text": "--primary",
+						"background": "--primary-medium",
+						"icon": "--accent",
+						"number": "--primary"
+					}
+				}
+			},
+
+			// Dials
+			"dials": {
+
+				"ring": "#1E948F",
+
+				"outline": "0004",
+				"top": "#026E6B",
+				"bottom": "--group",
+
+				"bevel": {
+
+					"highlight": "#fff3",
+					"shadow": "#0007"
+				},
+
+				"line": "--accent"
+			}
+		},
+
+		// Here we define panel-dials properties
+		"dial-style": {
+
+			"outline": 1.5,
+			"top-bevel": 1.76,
+			"ring-width": 2.64,
+			"ring-space": 3,
+			"shadow-size": 0.6,
+			"shadow-distance-y": 0.2,
+			"pointer-space": 3,
+			"pointer-width": 2.5
+		}
+	},
+
+	// Header properties
+	"header": {
+
+		// Here we define all colors for the header
+		"colors": {
+
+			// General
+			"background": "--dark",
+			"label": "--primary",
+			"accent": "--accent",
+			"shadows": "#0007",
+
+			"groups": {
+
+				"background": "--group",
+				"label": "--highlight",
+				"label-medium": "--accent-dark",
+				"label-dark": "--accent-dark"
+			},
+
+			// Dials
+			"dials": {
+				"line": "#fff8"
+			}
+		},
+
+		// Here we define header-dials properties
+		"dial-style": {
+
+			"outline": 1.5
+		},
+
+		// Here we define note-event properties
+		"events": {
+			"note-depth": 0.2,
+			"note-radius": 2,
+			"note-outline": 0.5
+		}
+	},
+
+	// Preview-dial
+	"preview": {
+
+		// Here we define preview-dial properties
+		"dial-style": {
+
+			"outline": 1,
+			"ring-space": 2,	// only for preview-dial: limited to 0-2
+			"ring-width": 0,	// only for preview-dial: limited to 0-2
+			"shadow-size": 0.33,
+			"shadow-distance-y": 0.3
+		}
+	},
+
+	// Here we define the virtual keyboard
+	"keyboard": {
+
+		"colors": {
+			"wheels": "--group",
+			"black-notes": "#0B403E",
+			"white-notes": "#002024"
+		},
+
+		"realistic": true
+	}
+}
